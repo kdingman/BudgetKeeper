@@ -42,11 +42,12 @@
     
     <canvas id="myChart"></canvas>
   </div>
-
+<!-- This type of function is a closure in a module design pattern-->
   <script>
+    // This function checks to see if the service worker exists on the global navigator object
     (function() {
       if("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("../../service-worker.js")
+        navigator.serviceWorker.register("./service-worker.js")
           .then(() => console.log("Service Worker registered successfully."))
           .catch(error => console.log("Service Worker registration failed:", error));
       }
