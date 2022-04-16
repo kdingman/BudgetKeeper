@@ -45,7 +45,7 @@
     "short-name": "BudgetKeeper",
     "orientation": "portrait",
     "display": "standalone",
-    "start_url": "/",
+    "start_url": "/index.html",
     "description": "An app that allows you to track your account balance and monitor your withdrawls and deposits.",
     "background_color": "#708090",
     "theme_color": "#F5F5F5"
